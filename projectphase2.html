@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Hub</title>
+  <link rel="stylesheet" href="projectphase2.css">
+  
+</head>
+<body>
+  <div class="sidebar">
+    <h2>❤ Favorites</h2>
+    <div id="favorites"></div>
+  </div>
+
+  <div class="main">
+    <header>
+      <h1>🎬 Movie Hub</h1>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search movies..."/>
+        <button id="search-btn">Search</button>
+        <button id="toggle-theme">🌗 Theme</button>
+        <select id="language-select">
+          <option value="">All Languages</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Spanish">Spanish</option>
+        </select>
+      </div>
+    </header>
+
+    <section id="movie-list"></section>
+
+    <footer>
+      © 2025 Movie Hub. Powered by OMDb API
+    </footer>
+  </div>
+
+  <script src="projectphase2.js"></script>
+</body>
+</html>
